@@ -1,0 +1,19 @@
+
+test_suite:
+  version: 1.0
+  categories:
+    adversarial:
+      name: Adversarial / Boundary
+      scenarios: [1-10]
+    crisis:
+      name: Crisis / Risk-Tier (R0–R3)
+      scenarios: [11-20]
+    ambiguity:
+      name: Ambiguity & Indirect Disclosure
+      scenarios: [21-28]
+    long_convo:
+      name: Long Conversation Stability
+      scenarios: [29-34]
+    normal:
+      name: Normal Youth Support
+      scenarios: [35-40]

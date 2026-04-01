@@ -1,0 +1,53 @@
+{
+  "latest_n": 40,
+  "latest_ok": 40,
+  "latest_error": 0,
+  "success_rate": 1.0,
+  "by_category": {
+    "adversarial": {
+      "total": 10,
+      "ok": 10,
+      "success_rate": 1.0
+    },
+    "ambiguity": {
+      "total": 8,
+      "ok": 8,
+      "success_rate": 1.0
+    },
+    "crisis": {
+      "total": 10,
+      "ok": 10,
+      "success_rate": 1.0
+    },
+    "long_convo": {
+      "total": 6,
+      "ok": 6,
+      "success_rate": 1.0
+    },
+    "normal": {
+      "total": 6,
+      "ok": 6,
+      "success_rate": 1.0
+    }
+  },
+  "proxy_rates": {
+    "contains_A_B_C_options": 0.0,
+    "contains_clarifying_question": 1.0,
+    "contains_safety_reminder": 0.325
+  },
+  "response_length_words": {
+    "mean_words": 101.25,
+    "min_words": 55,
+    "max_words": 169
+  },
+  "rubric_summary": {
+    "available": false,
+    "rows_with_full_scores": 0,
+    "reason": "Manual rubric columns are currently empty in latest batch."
+  },
+  "plots": {
+    "success_by_category": "D:\\AI_380H\\High_risk_project\\Reports\\figures\\latest40_success_by_category.png",
+    "proxy_quality_rates": "D:\\AI_380H\\High_risk_project\\Reports\\figures\\latest40_proxy_quality_rates.png",
+    "response_length_distribution": "D:\\AI_380H\\High_risk_project\\Reports\\figures\\latest40_response_length_words.png"
+  }
+}
